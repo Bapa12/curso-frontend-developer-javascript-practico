@@ -164,7 +164,6 @@ nav {
 /* Aside (Product Detail y Carrito) */
 aside {
   width: 360px;
-  height: 500px;
   box-sizing: border-box;
   position: absolute;
   right: 0;
@@ -179,6 +178,7 @@ aside {
 /* Shopping Cart */
 #shoppingCartContainer {
   padding: 0 24px;
+  height: 40%;
 }
 .title-container {
   display: flex;
@@ -269,6 +269,9 @@ aside {
 .product-detail-close:hover {
   cursor: pointer;
 }
+#productDetail {
+  height: 50%;
+}
 #productDetail > img:nth-child(2) {
   width: 100%;
   height: 360px;
@@ -329,6 +332,7 @@ aside {
   height: 240px;
   border-radius: 20px;
   object-fit: cover;
+  cursor: pointer;
 }
 .product-card .product-info {
   display: flex;
